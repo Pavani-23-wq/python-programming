@@ -1,0 +1,15 @@
+
+marks = [85, 90, 78, 92, 88]
+
+total = sum(marks)
+average = total / len(marks)
+
+print("Total Marks:", total)
+print("Average:", average)
+
+if average >= 90:
+    print("Grade: A")
+elif average >= 75:
+    print("Grade: B")
+else:
+    print("Grade: C")
